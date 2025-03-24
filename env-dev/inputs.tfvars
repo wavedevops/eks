@@ -1,0 +1,15 @@
+env                    = "dev"
+project_name           = "expense"
+vpc_cidr               = "10.0.0.0/16"
+public_subnets         = ["10.0.0.0/24", "10.0.1.0/24"]
+private_subnets        = ["10.0.2.0/24", "10.0.3.0/24"]
+azs                    = ["us-east-1a", "us-east-1b"]
+default_vpc_id         = "vpc-0f54167fa22079c54"
+default_vpc_cidr       = "172.31.0.0/16"
+default_route_table_id = "rtb-080f5fbdd87cfa0f5"
+account_no             = "017820698851"
+bastion_node_cidr      = [""]
+desired_capacity       = 1
+max_size               = 1
+min_size               = 1
+instance_class         = "t2.micro"
